@@ -1,0 +1,45 @@
+header {
+  background-color: rgb(29, 183, 230);
+}
+
+.register-text {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.register-text h4 {
+  padding-bottom: 5px;
+}
+
+.container.one {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 120px 35px 120px;
+}
+
+#send-button {
+  background-color: rgb(29, 183, 230);
+  color: white;
+  border: 1.5px solid white;
+  border-radius: 2px;
+  padding: 7px 32px;
+  cursor: pointer;
+}
+
+#send-button:hover {
+  background-color: rgb(0, 225, 255);
+}
+
+input {
+  width: 240px;
+  height: 100%;
+  padding: 0 15px 3px;
+  border: none;
+  border-radius: 2px;
+}
+
+input::placeholder {
+  font-size: 11px;
+}
