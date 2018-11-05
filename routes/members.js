@@ -1,10 +1,10 @@
 var express = require("express");
 var router = express.Router();
-const mongojs = require("mongojs");
-const db = mongojs(
-  "mongodb://kim:kimdim123@ds119732.mlab.com:19732/fullstack",
-  ["members"]
-);
+// const mongojs = require("mongojs");
+// const db = mongojs(
+//   "mongodb://kim:kimdim123@ds119732.mlab.com:19732/fullstack",
+//   ["members"]
+// );
 
 router.get("/members", function(req, res, next) {
   db.members.find(function(err, members) {
